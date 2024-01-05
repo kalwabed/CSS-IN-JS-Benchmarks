@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 kalwabed/CSS-IN-JS-Benchmarks is built on the following main stack:
+
 - [React](https://reactjs.org/) – Javascript UI Libraries
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
@@ -16,11 +17,13 @@ kalwabed/CSS-IN-JS-Benchmarks is built on the following main stack:
 - [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 kalwabed/CSS-IN-JS-Benchmarks is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1682/IMG_4636.PNG' alt='Webpack'/> [Webpack](http://webpack.js.org) – JS Build Tools / JS Task Runners
@@ -35,14 +38,15 @@ kalwabed/CSS-IN-JS-Benchmarks is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [kalwabed/CSS-IN-JS-Benchmarks](https://github.com/kalwabed/CSS-IN-JS-Benchmarks)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|55<br/>Tools used|11/10/23 <br/>Report generated|
+|58<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -211,9 +215,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (37)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (40)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (37)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (40)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -235,6 +239,7 @@ Full tech stack [here](/techstack.md)
 |[babel-preset-react](https://www.npmjs.com/babel-preset-react)|v6.23.0|01/31/18|Akimov Vladimir |MIT|N/A|
 |[babel-preset-react-hmre](https://www.npmjs.com/babel-preset-react-hmre)|v1.1.1|01/31/18|Akimov Vladimir |ISC|N/A|
 |[babel-runtime](https://www.npmjs.com/babel-runtime)|v6.26.0|01/31/18|Akimov Vladimir |MIT|N/A|
+|[chalk](https://www.npmjs.com/chalk)|v2.4.2|04/30/17|A-gambit |MIT|N/A|
 |[connect](https://www.npmjs.com/connect)|v3.7.0|05/19/19|lttb |MIT|N/A|
 |[cross-env](https://www.npmjs.com/cross-env)|v3.1.4|04/29/17|Valeriy Sorokobatko |MIT|N/A|
 |[cross-spawn](https://www.npmjs.com/cross-spawn)|v3.0.1|04/30/17|A-gambit |MIT|N/A|
@@ -242,7 +247,9 @@ Full tech stack [here](/techstack.md)
 |[extract-text-webpack-plugin](https://www.npmjs.com/extract-text-webpack-plugin)|v2.1.2|08/31/17|Kye Hohenberger |MIT|N/A|
 |[file-loader](https://www.npmjs.com/file-loader)|v0.10.1|04/30/17|A-gambit |MIT|N/A|
 |[glamor](https://www.npmjs.com/glamor)|v2.20.24|04/29/17|Valeriy Sorokobatko |MIT|N/A|
+|[husky](https://www.npmjs.com/husky)|v0.13.3|04/30/17|A-gambit |MIT|N/A|
 |[jss](https://www.npmjs.com/jss)|v6.5.0|11/03/17|lttb |MIT|N/A|
+|[lint-staged](https://www.npmjs.com/lint-staged)|v3.4.0|05/19/19|lttb |MIT|N/A|
 |[radium](https://www.npmjs.com/radium)|v0.18.2|04/29/17|Valeriy Sorokobatko |MIT|N/A|
 |[react-dom](https://www.npmjs.com/react-dom)|v15.6.2|04/30/17|A-gambit |MIT|N/A|
 |[react-emotion](https://www.npmjs.com/react-emotion)|v8.0.12|01/31/18|Akimov Vladimir |MIT|N/A|
@@ -258,4 +265,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
