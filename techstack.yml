@@ -1,11 +1,12 @@
 repo_name: kalwabed/CSS-IN-JS-Benchmarks
 report_id: 42bfdb2fded269bb8090e091e94d617e
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T12:44:44+00:00'
+timestamp: '2024-01-05T08:54:10+00:00'
 requested_by: A-gambit
 provider: github
 branch: master
-detected_tools_count: 55
+detected_tools_count: 58
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks
   detection_source: Repo Metadata
 - name: Glamorous
   description: Maintainable CSS with React
@@ -36,8 +39,8 @@ tools:
   category: Libraries
   sub_category: JavaScript Framework Components
   image_url: https://img.stackshare.io/service/9149/full.png
-  detection_source_url: packages/benchmarks/glamorous/dynamic-styles/yarn.lock
-  detection_source: packages/benchmarks/glamorous/glamor-css/package.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/packages/benchmarks/glamorous/dynamic-styles/yarn.lock
+  detection_source: packages/benchmarks/glamorous/dynamic-styles/package.json
   last_updated_by: Valeriy Sorokobatko
   last_updated_on: 2017-04-29 12:10:35.000000000 Z
 - name: React
@@ -50,8 +53,8 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
-  detection_source_url: package-lock.json
-  detection_source: packages/benchmarks/reshadow/package.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: A-gambit
   last_updated_on: 2017-04-30 09:44:02.000000000 Z
 - name: css-loader
@@ -63,6 +66,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package.json
   detection_source: package.json
   last_updated_by: A-gambit
   last_updated_on: 2017-04-30 09:44:02.000000000 Z
@@ -77,8 +81,8 @@ tools:
   category: Libraries
   sub_category: JavaScript Framework Components
   image_url: https://img.stackshare.io/service/6749/styled-components.png
-  detection_source_url: packages/benchmarks/styled-components/decouple-cell/yarn.lock
-  detection_source: packages/benchmarks/styled-components/simple/package.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/packages/benchmarks/styled-components/decouple-cell/yarn.lock
+  detection_source: packages/benchmarks/styled-components/decouple-cell/package.json
   last_updated_by: Evan Scott
   last_updated_on: 2018-02-12 07:04:00.000000000 Z
 - name: Babel
@@ -91,8 +95,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JavaScript Compilers
   image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
-  detection_source_url: package-lock.json
-  detection_source: packages/benchmarks/styletron/.babelrc
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: Akimov Vladimir
   last_updated_on: 2018-01-31 23:14:55.000000000 Z
 - name: ESLint
@@ -104,7 +108,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
-  detection_source: packages/benchmarks/reshadow/package.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package.json
+  detection_source: package.json
   last_updated_by: Valeriy Sorokobatko
   last_updated_on: 2017-04-29 12:10:35.000000000 Z
 - name: Git
@@ -115,6 +120,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks
   detection_source: Repo Metadata
 - name: Prettier
   description: 'Prettier is an opinionated code formatter. '
@@ -126,7 +132,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: A-gambit
   last_updated_on: 2017-04-30 09:44:02.000000000 Z
@@ -139,6 +145,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/.travis.yml
   detection_source: ".travis.yml"
   last_updated_by: A-gambit
   last_updated_on: 2017-04-27 23:28:47.000000000 Z
@@ -152,8 +159,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
-  detection_source_url: package-lock.json
-  detection_source: packages/dev-tasks/src/webpack.config.js
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: Gregory Shehet
   last_updated_on: 2017-04-30 12:46:47.000000000 Z
 - name: Yarn
@@ -164,7 +171,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
-  detection_source: yarn.lock
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/packages/benchmarks-utils/yarn.lock
+  detection_source: packages/benchmarks-utils/yarn.lock
   last_updated_by: A-gambit
   last_updated_on: 2017-04-24 06:00:06.000000000 Z
 - name: npm
@@ -175,6 +183,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/packages/dev-tasks/package.json
   detection_source: packages/dev-tasks/package.json
   last_updated_by: Valeriy Sorokobatko
   last_updated_on: 2017-04-29 12:10:35.000000000 Z
@@ -188,7 +197,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/6207/OwqAUSQi_400x400.jpg
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Gregory Shehet
   last_updated_on: 2017-04-30 12:46:47.000000000 Z
@@ -198,6 +207,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/packages/dev-tasks/package.json
   detection_source: packages/dev-tasks/package.json
   last_updated_by: A-gambit
   last_updated_on: 2017-04-30 09:44:02.000000000 Z
@@ -206,6 +216,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package.json
   detection_source: package.json
   last_updated_by: A-gambit
   last_updated_on: 2017-04-30 09:44:02.000000000 Z
@@ -214,6 +225,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package.json
   detection_source: package.json
   last_updated_by: lttb
   last_updated_on: 2019-05-19 16:02:16.000000000 Z
@@ -227,7 +239,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: packages/benchmarks/reshadow/package-lock.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/packages/benchmarks/reshadow/package-lock.json
   detection_source: packages/benchmarks/reshadow/package.json
   last_updated_by: lttb
   last_updated_on: 2019-05-19 16:10:05.000000000 Z
@@ -241,7 +253,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: packages/benchmarks/reshadow/package-lock.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/packages/benchmarks/reshadow/package-lock.json
   detection_source: packages/benchmarks/reshadow/package.json
   last_updated_by: lttb
   last_updated_on: 2019-05-19 16:10:05.000000000 Z
@@ -255,7 +267,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15890/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: packages/benchmarks/reshadow/package-lock.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/packages/benchmarks/reshadow/package-lock.json
   detection_source: packages/benchmarks/reshadow/package.json
   last_updated_by: lttb
   last_updated_on: 2019-05-19 16:10:05.000000000 Z
@@ -269,7 +281,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18353/default_66453dac5039f3ea2d494ebb900a31c627b16d29.png
-  detection_source_url: packages/benchmarks/aphrodite/yarn.lock
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/packages/benchmarks/aphrodite/yarn.lock
   detection_source: packages/benchmarks/aphrodite/package.json
   last_updated_by: Valeriy Sorokobatko
   last_updated_on: 2017-04-29 13:24:24.000000000 Z
@@ -283,8 +295,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15798/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: package-lock.json
-  detection_source: packages/benchmarks-utils/package.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: Akimov Vladimir
   last_updated_on: 2018-01-31 23:14:55.000000000 Z
 - name: babel-eslint
@@ -297,8 +309,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: package-lock.json
-  detection_source: packages/benchmarks-utils/package.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: Akimov Vladimir
   last_updated_on: 2018-01-31 23:14:55.000000000 Z
 - name: babel-loader
@@ -311,8 +323,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
-  detection_source_url: package-lock.json
-  detection_source: packages/benchmarks/reshadow/package.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: Akimov Vladimir
   last_updated_on: 2018-01-31 23:14:55.000000000 Z
 - name: babel-plugin-add-module-exports
@@ -325,8 +337,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15943/default_4040fefea2f98006727f63d042275b96a275ab2d.png
-  detection_source_url: package-lock.json
-  detection_source: packages/benchmarks-utils/package.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: Akimov Vladimir
   last_updated_on: 2018-01-31 23:14:55.000000000 Z
 - name: babel-plugin-emotion
@@ -339,8 +351,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17220/default_9fc4b0c75e3fd0ca34b2b1e215b90fd3d79ddde3.png
-  detection_source_url: package-lock.json
-  detection_source: packages/benchmarks/emotion/simple/package.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: Akimov Vladimir
   last_updated_on: 2018-01-31 23:14:55.000000000 Z
 - name: babel-plugin-styled-components
@@ -354,8 +366,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16651/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
-  detection_source_url: packages/benchmarks/styled-components/decouple-cell/yarn.lock
-  detection_source: packages/benchmarks/styled-components/simple/package.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/packages/benchmarks/styled-components/decouple-cell/yarn.lock
+  detection_source: packages/benchmarks/styled-components/decouple-cell/package.json
   last_updated_by: Evan Scott
   last_updated_on: 2018-02-12 07:04:00.000000000 Z
 - name: babel-plugin-transform-async-to-generator
@@ -368,8 +380,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16212/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
-  detection_source_url: package-lock.json
-  detection_source: packages/benchmarks-utils/package.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: Akimov Vladimir
   last_updated_on: 2018-01-31 23:14:55.000000000 Z
 - name: babel-plugin-transform-class-properties
@@ -383,8 +395,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15928/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: package-lock.json
-  detection_source: packages/benchmarks-utils/package.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: Akimov Vladimir
   last_updated_on: 2018-01-31 23:14:55.000000000 Z
 - name: babel-plugin-transform-regenerator
@@ -397,8 +409,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16423/default_5ffcf8d02a3454bd25d27d236025c6d078c3b672.png
-  detection_source_url: package-lock.json
-  detection_source: packages/benchmarks-utils/package.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: Akimov Vladimir
   last_updated_on: 2018-01-31 23:14:55.000000000 Z
 - name: babel-plugin-transform-runtime
@@ -411,8 +423,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15849/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: package-lock.json
-  detection_source: packages/benchmarks-utils/package.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: Akimov Vladimir
   last_updated_on: 2018-01-31 23:14:55.000000000 Z
 - name: babel-preset-es2015
@@ -425,8 +437,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15805/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: package-lock.json
-  detection_source: packages/benchmarks-utils/package.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: Akimov Vladimir
   last_updated_on: 2018-01-31 23:14:55.000000000 Z
 - name: babel-preset-react
@@ -439,8 +451,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15825/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: package-lock.json
-  detection_source: packages/benchmarks-utils/package.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: Akimov Vladimir
   last_updated_on: 2018-01-31 23:14:55.000000000 Z
 - name: babel-preset-react-hmre
@@ -453,7 +465,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16560/default_536789d2630ed352dc721a1c915ab456b7660201.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Akimov Vladimir
   last_updated_on: 2018-01-31 23:14:55.000000000 Z
@@ -467,10 +479,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15861/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
-  detection_source_url: package-lock.json
-  detection_source: packages/benchmarks/react-jss/package.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: Akimov Vladimir
   last_updated_on: 2018-01-31 23:14:55.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 2.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
+  detection_source: packages/dev-tasks/package.json
+  last_updated_by: A-gambit
+  last_updated_on: 2017-04-30 09:44:02.000000000 Z
 - name: connect
   description: High performance middleware framework
   package_url: https://www.npmjs.com/connect
@@ -481,8 +507,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16202/default_2c2f2c7b016f84c0fad2576cb986cb14a5dbbc2f.png
-  detection_source_url: package-lock.json
-  detection_source: packages/tests/package.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: lttb
   last_updated_on: 2019-05-19 16:02:16.000000000 Z
 - name: cross-env
@@ -495,7 +521,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Valeriy Sorokobatko
   last_updated_on: 2017-04-29 12:10:35.000000000 Z
@@ -509,7 +535,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16069/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
   detection_source: packages/dev-tasks/package.json
   last_updated_by: A-gambit
   last_updated_on: 2017-04-30 09:44:02.000000000 Z
@@ -523,8 +549,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16737/default_ee69dab268e6a52104564fd4259549f5b48a25d4.png
-  detection_source_url: packages/benchmarks/emotion/css-mode/package-lock.json
-  detection_source: packages/benchmarks/emotion/simple/package.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/packages/benchmarks/emotion/css-mode/package-lock.json
+  detection_source: packages/benchmarks/emotion/css-mode/package.json
   last_updated_by: Akimov Vladimir
   last_updated_on: 2018-01-31 23:14:55.000000000 Z
 - name: extract-text-webpack-plugin
@@ -537,7 +563,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15855/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
-  detection_source_url: packages/dev-tasks/yarn.lock
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/packages/dev-tasks/yarn.lock
   detection_source: packages/dev-tasks/package.json
   last_updated_by: Kye Hohenberger
   last_updated_on: 2017-08-31 03:54:57.000000000 Z
@@ -551,7 +577,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15834/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: A-gambit
   last_updated_on: 2017-04-30 09:44:02.000000000 Z
@@ -565,10 +591,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18009/default_fc5f66cf44024e173fd07c415d4f30ca58b4cbad.png
-  detection_source_url: packages/benchmarks/cxs/yarn.lock
-  detection_source: packages/benchmarks/glamorous/glamor-css/package.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/packages/benchmarks/cxs/yarn.lock
+  detection_source: packages/benchmarks/glamorous/dynamic-styles/package.json
   last_updated_by: Valeriy Sorokobatko
   last_updated_on: 2017-04-29 12:10:35.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 0.13.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: A-gambit
+  last_updated_on: 2017-04-30 09:44:02.000000000 Z
 - name: jss
   description: A lib for generating Style Sheets with JavaScript
   package_url: https://www.npmjs.com/jss
@@ -579,10 +619,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17509/default_3551598c41205d6bdb9267e84e481dd5afeedb46.png
-  detection_source_url: packages/benchmarks/react-jss/yarn.lock
-  detection_source: packages/benchmarks/styled-jss/w-o-plugins/package.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/packages/benchmarks/react-jss/yarn.lock
+  detection_source: packages/benchmarks/styled-jss/w-o-plugins-v2/package.json
   last_updated_by: lttb
   last_updated_on: 2017-11-03 22:12:11.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 3.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: lttb
+  last_updated_on: 2019-05-19 16:02:16.000000000 Z
 - name: radium
   description: A set of tools to manage inline styles on React elements
   package_url: https://www.npmjs.com/radium
@@ -593,7 +647,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17335/default_c1932d441699b98abea6098c6f8f65e2acb4f5ed.png
-  detection_source_url: packages/benchmarks/radium/yarn.lock
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/packages/benchmarks/radium/yarn.lock
   detection_source: packages/benchmarks/radium/package.json
   last_updated_by: Valeriy Sorokobatko
   last_updated_on: 2017-04-29 12:10:35.000000000 Z
@@ -607,8 +661,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: package-lock.json
-  detection_source: packages/benchmarks/reshadow/package.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: A-gambit
   last_updated_on: 2017-04-30 09:44:02.000000000 Z
 - name: react-emotion
@@ -621,8 +675,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18066/image.png
-  detection_source_url: packages/benchmarks/emotion/css-mode/package-lock.json
-  detection_source: packages/benchmarks/emotion/simple/package.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/packages/benchmarks/emotion/css-mode/package-lock.json
+  detection_source: packages/benchmarks/emotion/css-mode/package.json
   last_updated_by: Akimov Vladimir
   last_updated_on: 2018-01-31 23:14:55.000000000 Z
 - name: react-jss
@@ -635,7 +689,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17302/default_6afdd1bc7e3815a18b56c31d0b4acf372c00f6e2.png
-  detection_source_url: packages/benchmarks/react-jss/yarn.lock
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/packages/benchmarks/react-jss/yarn.lock
   detection_source: packages/benchmarks/react-jss/package.json
   last_updated_by: Valeriy Sorokobatko
   last_updated_on: 2017-04-29 12:10:35.000000000 Z
@@ -649,7 +703,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17683/default_894a45ad01fa93ac472db719cb1ef1b89f2924f0.png
-  detection_source_url: packages/benchmarks/react-native-web/yarn.lock
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/packages/benchmarks/react-native-web/yarn.lock
   detection_source: packages/benchmarks/react-native-web/package.json
   last_updated_by: Bruno Lemos
   last_updated_on: 2017-11-20 02:01:12.000000000 Z
@@ -663,8 +717,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16295/default_f04d39fc656c2e32ee1b9d3875a3002459aa3b69.png
-  detection_source_url: package-lock.json
-  detection_source: packages/tests/package.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: lttb
   last_updated_on: 2019-05-19 16:02:16.000000000 Z
 - name: shelljs
@@ -677,8 +731,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15897/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: package-lock.json
-  detection_source: packages/tests/package.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: Valeriy Sorokobatko
   last_updated_on: 2017-04-29 12:10:35.000000000 Z
   vulnerabilities:
@@ -704,7 +758,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15822/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: A-gambit
   last_updated_on: 2017-04-30 09:44:02.000000000 Z
@@ -718,8 +772,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17785/default_ade6298147a2f4c78d7d49e1ea77c0d3a3bbd44f.png
-  detection_source_url: packages/benchmarks/styled-jsx/dynamic/yarn.lock
-  detection_source: packages/benchmarks/styled-jsx/inline-styles/package.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/packages/benchmarks/styled-jsx/dynamic/yarn.lock
+  detection_source: packages/benchmarks/styled-jsx/dynamic/package.json
   last_updated_by: Giuseppe Gurgone
   last_updated_on: 2017-10-13 18:19:13.000000000 Z
 - name: webpack-dev-server
@@ -732,8 +786,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15821/default_64690bc3e49bcee57094e51a7a26c620c48dbd82.png
-  detection_source_url: package-lock.json
-  detection_source: packages/dev-tasks/package.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: lttb
   last_updated_on: 2019-05-19 16:02:16.000000000 Z
   vulnerabilities:
@@ -753,7 +807,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
-  detection_source_url: package-lock.json
-  detection_source: packages/dev-tasks/package.json
+  detection_source_url: https://github.com/kalwabed/CSS-IN-JS-Benchmarks/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: Valeriy Sorokobatko
   last_updated_on: 2017-04-29 12:10:35.000000000 Z
